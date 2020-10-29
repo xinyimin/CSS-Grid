@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* column-gap: 1em;
+            row-gap: 1em; */
+            gap: 0.5em;
+        }
+        
+        .wrapper>div {
+            background-color: #eee;
+            padding: 1em;
+        }
+        
+        .wrapper>div:nth-child(odd) {
+            background: #ddd
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consecteturadipisicing elit. Nulla quo eveniet placeat. Inporro, repudiandae ipsum voluptatibus rationeenim accusantium rem consequatur ab? Aliastenetur ratione quibusdam accusantium aut quistotam! Voluptas labore officiis,
+            unde sequi adfuga, ex assumenda dolorem placeat atqueexcepturi ipsa architecto dolores dignissimosquod quibusdam quasi repellat vero cumperspiciatis laboriosam qui sint exercitationemquisquam. Quisquam suscipit fugiat doloremquequasi ad debitis
+            dolor quaerat nihil aliquam atducimus consequuntur repudiandae numquameligendi, fugit, excepturi doloribus!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consecteturadipisicing elit. Nulla quo eveniet placeat. Inporro, repudiandae ipsum voluptatibus rationeenim accusantium rem consequatur ab? Aliastenetur ratione quibusdam accusantium aut quistotam! Voluptas labore officiis,
+            !
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consecteturadipisicing elit. Nulla quo eveniet placeat. Inporro, repudiandae ipsum voluptatibus rationeenim accusantium rem consequatur ab? Aliastenetur ratione quibusdam accusantium aut quistotam! Voluptas labore officiis,
+            unde sequi adfuga, ex assumenda dolorem placeat atqueexcepturi ipsa architecto dolores dignissimosquod quibusdam quasi repellat vero cumperspiciatis laboriosam qui sint exercitationemquisquam. Quisquam suscipit fugiat doloremquequasi ad debitis
+            dolor quaerat nihil aliquam atducimus consequuntur repudiandae numquameligendi, fugit, excepturi doloribus!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consecteturadipisicing elit. Nulla quo eveniet placeat. Inporro, repudiandae ipsum voluptatibus rationeenim accusantium rem consequatur ab? Aliastenetur ratione quibusdam accusantium aut quistotam! Voluptas labore officiis,
+            !
+        </div>
+    </div>
+</body>
+
+</html>
